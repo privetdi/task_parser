@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "job": "rates_backfill",
+    "job_title": "Догрузка истории курсов",
+    "trigger": "startup",
+    "status": "success",
+    "started_at": "2026-10-22T09:03:47.704189Z",
+    "finished_at": "2026-10-22T09:07:00.827985Z",
+    "duration_seconds": 193.123796,
+    "summary": "Порций загружено: 924; курсы: добавлено 108363, изменено 0, без изменений 0; версий валют загружено полностью: 258 из 258",
+    "error": null
+  },
+  {
+    "id": 2,
+    "job": "rates_sync",
+    "job_title": "Проверка курсов НБ РБ",
+    "trigger": "manual",
+    "status": "success",
+    "started_at": "2026-10-22T09:08:37.459714Z",
+    "finished_at": "2026-10-22T09:08:54.584989Z",
+    "duration_seconds": 17.125275,
+    "summary": "Без изменений: новых и изменённых курсов нет (проверено валют: 84, значений: 984)",
+    "error": null
+  },
+  {
+    "id": 3,
+    "job": "rates_report",
+    "job_title": "Excel-отчёт на почту",
+    "trigger": "manual",
+    "status": "success",
+    "started_at": "2026-10-22T09:09:08.083212Z",
+    "finished_at": "2026-10-22T09:09:08.189988Z",
+    "duration_seconds": 0.106776,
+    "summary": "Отчёт за 22.10.2026 отправлен: валют 84; сохранено без отправки: ../data/outbox/20261022T120908_Курсы_валют_НБ_РБ_на_22_10_2026_ab88b1.eml",
+    "error": null
+  },
+  {
+    "id": 4,
+    "job": "rates_report",
+    "job_title": "Excel-отчёт на почту",
+    "trigger": "manual",
+    "status": "success",
+    "started_at": "2026-10-22T09:10:53.027369Z",
+    "finished_at": "2026-10-22T09:10:53.152459Z",
+    "duration_seconds": 0.12509,
+    "summary": "Отчёт за 22.10.2026 отправлен: валют 84; сохранено без отправки: ../data/outbox/20261022T121053_Курсы_валют_НБ_РБ_на_22_10_2026_ec6a55.eml",
+    "error": null
+  },
+  {
+    "id": 5,
+    "job": "rates_report",
+    "job_title": "Excel-отчёт на почту",
+    "trigger": "manual",
+    "status": "success",
+    "started_at": "2026-10-22T09:12:53.022958Z",
+    "finished_at": "2026-10-22T09:12:53.145542Z",
+    "duration_seconds": 0.122584,
+    "summary": "Отчёт за 22.10.2026 отправлен: валют 84; сохранено без отправки: ../data/outbox/20261022T121253_Курсы_валют_НБ_РБ_на_22_10_2026_d5c831.eml",
+    "error": null
+  },
+  {
+    "id": 6,
+    "job": "iea_charts",
+    "job_title": "Графики IEA",
+    "trigger": "manual",
+    "status": "error",
+    "started_at": "2026-10-22T09:13:11.272239Z",
+    "finished_at": "2026-10-22T09:13:15.293316Z",
+    "duration_seconds": 4.021077,
+    "summary": "Каталог IEA недоступен: сайт IEA отдал защитную страницу Cloudflare («проверка на робота») вместо каталога; обход проверки не выполняется",
+    "error": "сайт IEA отдал защитную страницу Cloudflare («проверка на робота») вместо каталога; обход проверки не выполняется"
+  }
+]

@@ -1,0 +1,27 @@
+[
+ {
+  "Cur_ID": 431,
+  "Date": "2026-10-18T00:00:00",
+  "Cur_OfficialRate": 3.0091
+ },
+ {
+  "Cur_ID": 431,
+  "Date": "2026-10-19T00:00:00",
+  "Cur_OfficialRate": 3.0098
+ },
+ {
+  "Cur_ID": 431,
+  "Date": "2026-10-20T00:00:00",
+  "Cur_OfficialRate": 2.995
+ },
+ {
+  "Cur_ID": 431,
+  "Date": "2026-10-21T00:00:00",
+  "Cur_OfficialRate": 2.9883
+ },
+ {
+  "Cur_ID": 431,
+  "Date": "2026-10-22T00:00:00",
+  "Cur_OfficialRate": 2.9713
+ }
+]

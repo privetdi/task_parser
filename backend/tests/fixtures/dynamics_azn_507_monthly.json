@@ -1,0 +1,32 @@
+[
+ {
+  "Cur_ID": 507,
+  "Date": "2026-05-04T00:00:00",
+  "Cur_OfficialRate": 1.6628
+ },
+ {
+  "Cur_ID": 507,
+  "Date": "2026-06-01T00:00:00",
+  "Cur_OfficialRate": 1.6235
+ },
+ {
+  "Cur_ID": 507,
+  "Date": "2026-07-01T00:00:00",
+  "Cur_OfficialRate": 1.7083
+ },
+ {
+  "Cur_ID": 507,
+  "Date": "2026-08-03T00:00:00",
+  "Cur_OfficialRate": 1.7093
+ },
+ {
+  "Cur_ID": 507,
+  "Date": "2026-09-01T00:00:00",
+  "Cur_OfficialRate": 1.7879
+ },
+ {
+  "Cur_ID": 507,
+  "Date": "2026-10-01T00:00:00",
+  "Cur_OfficialRate": 1.7769
+ }
+]

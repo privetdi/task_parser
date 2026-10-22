@@ -1,0 +1,27 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    # Настройки из .env (см. .env.example); без файла работают значения по умолчанию
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      # В контейнере данные всегда лежат в томе, что бы ни стояло в .env
+      DATA_DIR: /app/data
+      # Профиль браузера для IEA не лежит в ./data: профиль, созданный на хосте (macOS/Windows),
+      # в Linux-контейнере не работает. Окна в контейнере нет, пройти проверку сайта там нельзя —
+      # сбор IEA лучше запускать на хосте (см. README).
+      IEA_PROFILE_DIR: /app/browser-profile
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  # Необязательно: локальный SMTP-сервер с веб-интерфейсом для проверки настоящей отправки.
+  # Запуск: docker compose --profile mail up   (письма: http://localhost:8025)
+  mailpit:
+    image: axllent/mailpit:v1.31.6
+    profiles: ["mail"]
+    ports:
+      - "8025:8025"

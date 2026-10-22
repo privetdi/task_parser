@@ -1,0 +1,11 @@
+# Всё, что не нужно образу и только раздувает контекст сборки.
+# Нужные файлы копируются в Dockerfile явно (COPY), остальное в образ не попадает.
+.git
+data
+.env
+**/node_modules
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+frontend/dist

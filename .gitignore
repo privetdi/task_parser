@@ -1,0 +1,21 @@
+# Секреты и локальные настройки
+.env
+
+# Рабочие данные сервиса (БД, письма, графики, отчёты)
+data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# ОС / редакторы
+.DS_Store
+.idea/
+.vscode/
